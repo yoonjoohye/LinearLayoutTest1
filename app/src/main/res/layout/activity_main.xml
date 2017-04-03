@@ -5,30 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="right|center_vertical"
     tools:context="a67yjh00.com.example.lg.linearlayouttest1.MainActivity">
 
     <Button
         android:layout_width="110dp"
         android:layout_height="100dp"
-        android:layout_gravity="center_horizontal"
         android:gravity="top|right"
-        android:text="가운데"
+        android:text="버튼1"
         android:textSize="15sp"
-        />
+        android:background="#8ff455" />
+
     <Button
         android:layout_width="110dp"
         android:layout_height="100dp"
-        android:layout_gravity="left"
-        android:gravity="center|left"
-        android:text="왼쪽"
+        android:gravity="left|center_vertical"
+        android:text="버튼2"
         android:textSize="15sp"/>
 
     <Button
         android:layout_width="110dp"
         android:layout_height="100dp"
-        android:layout_gravity="right"
         android:gravity="bottom|right"
-        android:text="왼쪽"
+        android:text="버튼3"
         android:textSize="15sp"/>
 
 </LinearLayout>
